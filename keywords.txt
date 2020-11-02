@@ -1,0 +1,34 @@
+###########################################
+# Syntax Coloring Map For FowingSerial
+###########################################
+
+#######################################
+# Library (KEYWORD3)
+#######################################
+
+FowingSerial	KEYWORD3
+
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+FogwingSerial	KEYWORD1
+
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+setMqttCredentials	KEYWORD2
+sendMqttPayload	KEYWORD2
+isMqttKeyReceived	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+EVERY_MIN	LITERAL1
+EVERY_HOUR	LITERAL1
+
