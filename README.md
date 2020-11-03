@@ -1,2 +1,3 @@
 # fogwing-iothub-arduino-serial
-Fogwing MQTT simulator code for Arduino using ESP-01
+Library for Arduino to communicate with ESP01.
+
