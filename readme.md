@@ -115,7 +115,7 @@ The first stuff that we are going to use is the Board Manager for ESP8266 and is
 * The changes made in this schematic are
     1. Remove the connection from **RESET** of Arduino Uno to **GND**.
     2. Remove the ESP-01 TX and RX connection and connect it according to the table below.
-    | Arduino UNO         |  ESP8266-01      |
+    | Arduino UNO         |  ESP8266-01     |
     |---------------------|----------------:|
     |D9 (soft serial RX)  |     TX          |
     |D8 (soft serial TX)  |     RX          |
