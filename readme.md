@@ -53,7 +53,7 @@ The first stuff that we are going to use is the Board Manager for ESP8266 and is
   So before moving further make sure you did it correctly. Have a look at the table.
 
   |     Arduino Uno    |    ESP8266-01           |
-  | -------------------| ----------------------::|
+  | -------------------| -----------------------:|
   |   TX D1            |        TX               |
   |   RX D0            |        RX               |
   |   3V3              |        VCC/3V3          |
@@ -115,7 +115,7 @@ The first stuff that we are going to use is the Board Manager for ESP8266 and is
     1. Remove the connection from **RESET** of Arduino Uno to **GND**.
     2. Remove the ESP-01 TX and RX connection and connect it according to the table below.
     | Arduino UNO         | ESP8266-01      |
-    |---------------------|-----------------|
+    |---------------------|----------------:|
     |D9 (soft serial RX)  |     TX          |
     |D8 (soft serial TX)  |     RX          |
 
