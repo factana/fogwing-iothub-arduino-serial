@@ -27,7 +27,6 @@ The first stuff that we are going to use is the Board Manager for ESP8266 and is
 
   <img src ="images/pref.png" style="width:150px;height:200px;" >
 
-<img src ="images/pref.png">
 
 <br/>
 
