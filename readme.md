@@ -1,6 +1,6 @@
 # _Log telemetry data to Fogwing Enterprise Cloud by using Arduino Uno and ESP8266-01_
 
-In this we will explain you how you can connect to [Fogwing](https://enterprise.fogwing.net/) IoT Platform with Arduino & ESP8266-01.
+In this we will explain how you can connect to [Fogwing](https://enterprise.fogwing.net/) IoT Platform with Arduino & ESP8266-01.
 
 ## Step:1
 ### Hardware requirements:
