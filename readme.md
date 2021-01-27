@@ -25,13 +25,7 @@ The first stuff that we are going to use is the Board Manager for ESP8266 and is
 
 * Open the Arduino IDE select **Files -> Preferences** and enter http://arduino.esp8266.com/stable/package_esp8266com_index.json into Additional Board Manager URLs field. You can add multiple URLs, separating them with commas.
 
-<style>
-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-</style>
+  <img src ="images/pref.png" style="width:150px;height:200px;" >
 
 <img src ="images/pref.png">
 
