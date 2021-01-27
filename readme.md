@@ -86,6 +86,7 @@ The first stuff that we are going to use is the Board Manager for ESP8266 and is
 
 * And then press **Upload** button in Arduino IDE it will take some time to complete the process. When you see **Connecting....** on Arduino IDE press and hold **Reset** and **Flash** push buttons for at least 5 seconds then release **Reset** push button while holding **Flash** push button pressed.
 
+
   <img src ="images/uploading.png">
 
 
@@ -114,7 +115,7 @@ The first stuff that we are going to use is the Board Manager for ESP8266 and is
 * The changes made in this schematic are
     1. Remove the connection from **RESET** of Arduino Uno to **GND**.
     2. Remove the ESP-01 TX and RX connection and connect it according to the table below.
-    | Arduino UNO         | ESP8266-01      |
+    | Arduino UNO         |  ESP8266-01      |
     |---------------------|----------------:|
     |D9 (soft serial RX)  |     TX          |
     |D8 (soft serial TX)  |     RX          |
