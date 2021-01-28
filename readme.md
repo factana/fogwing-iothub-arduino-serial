@@ -70,13 +70,10 @@ The first stuff that we are going to use is the Board Manager for ESP8266 and is
 ## Step:4
 ### Burning the sketch into ESP-01:
 
-* First download the libraries from [here](https://github.com/factana/fogwing-iothub-arduino-serial.git). Select Download ZIP to download the library.
+* First download the zip file from [here](https://github.com/factana/fogwing-iothub-arduino-serial.git). Select Download ZIP to download the library.
 
   <img src ="images/library.png">
 
-* To add the downloaded library to Arduino IDE, first extract the downloaded zip file and go to **Sketch >> Include Library >> Add .ZIP Library** then select [arduino_telemetry](https://github.com/factana/fogwing-iothub-arduino-serial/tree/main/arduino_telemetry) and press Open.
-
-  Repeat the above procedure to add the [esp8266-01_client](https://github.com/factana/fogwing-iothub-arduino-serial/tree/main/esp8266-01_client) library.
 
 * Now go to [esp8266-01_client](https://github.com/factana/fogwing-iothub-arduino-serial/tree/main/esp8266-01_client) folder and open the [esp8266-01_client.ino](https://github.com/factana/fogwing-iothub-arduino-serial/blob/main/esp8266-01_client/esp8266-01_client.ino), update it with your WiFi credentials(i.e. SSID & PASSWORD).
 
@@ -85,7 +82,6 @@ The first stuff that we are going to use is the Board Manager for ESP8266 and is
 * Connect Arduino Uno to your computer and then Select **Tools -> Port** and make sure you have selected the correct port. And again, Select **Tools -> Upload Speed** and make sure it is 115200.
 
 * And then press **Upload** button in Arduino IDE it will take some time to complete the process. When you see **Connecting....** on Arduino IDE press and hold **Reset** and **Flash** push buttons for at least 5 seconds then release **Reset** push button while holding **Flash** push button pressed.
-
 
   <img src ="images/uploading.png">
 
