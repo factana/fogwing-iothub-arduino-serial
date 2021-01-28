@@ -1,8 +1,6 @@
 # _Log telemetry data to Fogwing Enterprise Cloud by using Arduino Uno and ESP8266-01_
 
-In this we will explain how you can connect to [Fogwing](https://enterprise.fogwing.net/) IoT Platform with Arduino & ESP8266-01.
-
-#### Note:- that these SDKs are currently in preview and are subject to change.
+In this we will explain you how you can connect to [Fogwing](https://enterprise.fogwing.net/) IoT Platform with Arduino & ESP8266-01.
 
 ## Step:1
 ### Hardware requirements:
@@ -72,15 +70,15 @@ The first stuff that we are going to use is the Board Manager for ESP8266 and is
 ## Step:4
 ### Burning the sketch into ESP-01:
 
-* First download the libraries from here. Select Download ZIP to download the library.
+* First download the libraries from [here](https://github.com/factana/fogwing-iothub-arduino-serial.git). Select Download ZIP to download the library.
 
   <img src ="images/library.png">
 
-* To add the downloaded library to Arduino IDE, first extract the downloaded zip file and go to **Sketch >> Include Library >> Add .ZIP Library** then select **arduino_telemetry** and press Open.
+* To add the downloaded library to Arduino IDE, first extract the downloaded zip file and go to **Sketch >> Include Library >> Add .ZIP Library** then select [arduino_telemetry](https://github.com/factana/fogwing-iothub-arduino-serial/tree/main/arduino_telemetry) and press Open.
 
-  Repeat the above procedure to add the **esp8266-01_client** library.
+  Repeat the above procedure to add the [esp8266-01_client](https://github.com/factana/fogwing-iothub-arduino-serial/tree/main/esp8266-01_client) library.
 
-* Now go to **esp8266-01_client** folder and open the **esp8266-01_client.ino**, update it with your WiFi credentials(i.e. SSID & PASSWORD).
+* Now go to [esp8266-01_client](https://github.com/factana/fogwing-iothub-arduino-serial/tree/main/esp8266-01_client) folder and open the [esp8266-01_client.ino](https://github.com/factana/fogwing-iothub-arduino-serial/blob/main/esp8266-01_client/esp8266-01_client.ino), update it with your WiFi credentials(i.e. SSID & PASSWORD).
 
 * Open Arduino IDE and use the sketch with necessary header files and select **Tools -> Board -> ESP8266 Boards and select Generic ESP8266 Module** then press **Verify** button in the Arduino IDE to check for any errors (Typo or copy-paste error). If you not got any error then everything is fine.
 
@@ -117,7 +115,7 @@ The first stuff that we are going to use is the Board Manager for ESP8266 and is
 * The changes made in this schematic are
     1. Remove the connection from **RESET** of Arduino Uno to **GND**.
     2. Remove the ESP-01 TX and RX connection and connect it according to the table below.
-    
+
         | Arduino UNO         | ESP8266-01      |
         |---------------------|----------------:|
         |D9 (soft serial RX)  |     TX          |
@@ -128,7 +126,7 @@ So, by this we are using cross connection for serial communication.
 ## Step:6
 ### Burning the sketch into Arduino Uno:
 
-* Go to the **arduino_telemetry** folder which you have downloaded in step 4, open the **arduino_telemetry.ino** file and update it with your [Fogwing](https://enterprise.fogwing.net/) MQTT credentials. You should have got an e-mail with all the required details or you can find it in Fogwing IoTHub access.
+* Go to the [arduino_telemetry](https://github.com/factana/fogwing-iothub-arduino-serial/tree/main/arduino_telemetry) folder which you have downloaded in step 4, open the [arduino_telemetry.ino](https://github.com/factana/fogwing-iothub-arduino-serial/blob/main/arduino_telemetry/arduino_telemetry.ino) file and update it with your [Fogwing](https://enterprise.fogwing.net/) MQTT credentials. You should have got an e-mail with all the required details or you can find it in Fogwing IoTHub access.
 
 * Open Arduino IDE and use the above sketch with necessary header files and select **Tools -> Board -> Arduino AVR Boards -> Arduino Uno** then press **Verify** button in the Arduino IDE to check for any errors (Typo or copy-paste error). If you not got any error then everything is fine.
 
