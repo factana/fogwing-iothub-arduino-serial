@@ -2,7 +2,7 @@
 
 In this we will explain you how you can connect to [Fogwing](https://enterprise.fogwing.net/) IoT Platform with Arduino & ESP8266-01.
 
-#### Note:- that these SDKs are currently in preview and are subject to change.
+#### Note:- These SDKs are currently in preview and are subject to change.
 
 ## Step:1
 ### Hardware requirements:
