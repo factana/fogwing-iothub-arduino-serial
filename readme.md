@@ -141,3 +141,4 @@ So, by this we are using cross connection for serial communication.
 ## Getting help and finding Fogwing docs:
 * [Fogwing Platform Forum](https://enterprise.fogwing.net/)
 * [Fogwing Platform Docs](https://docs.fogwing.io/fogwing-platform/)
+* Please visit https://www.fogwing.io/industrial-iot-platform/ for more information about Fogwing Industrial IoT Platform.
