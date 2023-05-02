@@ -25,7 +25,7 @@ class FogwingEspClient
 private:
   volatile int wificon = 0, wifierr = 0;
   const int fogwingMqttPort = 1883;
-  const char* fogwingServer    = "iothub.enterprise.fogwing.net";
+  const char* fogwingServer    = "iothub.fogwing.net";
   const String fogwingPubTopic = "fwent/edge/+/inbound";
   const String fogwingSubTopic = "fwent/edge/+/outbound";
   String sBuff = "";
